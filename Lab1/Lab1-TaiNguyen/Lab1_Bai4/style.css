@@ -1,0 +1,154 @@
+body {
+    margin-top: 20px;
+}
+
+header {
+    position: relative;
+}
+
+.logo-img {
+    margin-left: 830px;
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.shopping-mall {
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+}
+
+.shopping-mall h1 {
+    display: inline-block;
+    font-family: Impact;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0px;
+}
+
+.shopping-mall h5 {
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-item:hover {
+    outline: 8px solid #000;
+    background: #000;
+}
+
+.nav-item i {
+    padding-right: 5px;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    box-shadow: 10px 10px 7px #ccc;
+    background: #fff;
+}
+
+.dropdown-item {
+    color: #000;
+}
+
+.dropdown-divider {
+    border-color: #ccc;
+}
+
+article {
+    padding: 30px 0;
+    border: 1px solid #ccc;
+}
+
+.poly-cart {
+    border: 1px solid #ccc;
+}
+
+.poly-cart ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-variant: small-caps;
+}
+
+.poly-cart .panel-heading strong {
+    font-variant: small-caps;
+    font-size: larger;
+    text-shadow: 0 0 2px darkgray;
+}
+
+.poly-cart .panel-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.card-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.form {
+    margin-top: 15px;
+    border: 1px solid #ccc;
+}
+
+form {
+    padding: 10px;
+}
+
+.list-group__heading {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.list-group {
+    border-radius: 0;
+}
+
+.col-prod {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.row-prod {
+    gap: 10px;
+}
+
+.poly-prod {
+    text-align: center;
+    padding: 0;
+    border: 1px solid #ccc;
+}
+
+.panel-heading {
+    background-color: #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.sp-img {
+    padding: 20px 0;
+    width: 95%;
+    height: 150px;
+}
+
+.panel-footer {
+    background: #ccc;
+}
+
+footer {
+    background: #f5f5f5;
+}

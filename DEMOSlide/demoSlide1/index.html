@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="/bootstrap-5.3.2-dist/js/bootstrap.js" ></script>
+    <title>DemoSlide1</title>
+</head>
+<body>
+
+    <!-- ÁP DỤNG BOOTSTRAP CSS -->
+    <h1>Hello Nhattimo</h1>
+    <!-- .container: định dạng khung chứa -->
+    <div class="container" >
+        <!-- .alert-info: làm nổi bật văn bản thông báo -->
+        <h1 class="alter-info">Hello Nhattimo</h1>
+        <!-- .btn: định dạng nút -->
+        <button>OK</button>
+        <!-- .btn-default: định dạng hình thức nút -->
+        <button class="btn btn-default" style="background-color: blue;">Cancel</button>
+    </div>
+
+
+    <!-- GRID SYSTEM -->
+
+    <!--col-xs-n: áp dụng cho mobile
+        col-sm-n: áp dụng cho máy tính bảng
+        col-md-n: áp dụng cho màn hình desktop
+        col-lg-n: áp dụng cho màn hình lớn -->
+
+    <div class="row"> 
+        <div class="col-8">col-8</div>
+        <div class="col-4">col-4</div>
+    </div>
+
+    <div class="row"> 
+        <div class="col-4">col-4</div>
+        <div class="col-4">col-4</div>
+        <div class="col-4">col-4</div>
+    </div>
+
+    <!-- Hệ thống lưới với nhiều thiết bị -->
+
+    <div class="container"> 
+        <div class="row"> 
+            <!-- Trên mobile: chiếm toàn màn hình, Trên máy tính: chỉ chiếm 8 cột -->
+            <div class="col-xs-12 col-md-8">col-xs-12 col-md-8</div>
+            <div class="col-xs-6 col-md-4">col-xs-6 col-md-4</div>
+        </div>
+
+        <div class="row"> 
+            <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+            <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+            <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        </div>
+
+        <div class="row"> 
+            <!-- Tất cả các thiết bị luôn chiếm ½ màn hình -->
+            <div class="col-sx-6">"col-sx-6"</div>
+            <div class="col-sx-6">"col-sx-6"</div>
+        </div>
+    </div>
+    
+
+
+    <!-- THIẾT KẾ LAYOUT -->
+    <div class="container"> 
+        <header class="row" >Header class = "row"</header>
+        <nav class="row">Nav class = "row"</nav>
+        <div class="row">
+            <aside class="col-xs-2"> aside class = "col-xs-2" </aside>
+            <article class="col-xs-8"> articel class = "col-xs-8" </article>
+            <aside class="col-xs-2"> aside class = "col-xs-2" </aside>
+        </div>
+        <footer class="row">footer class = "row" </footer>
+    </div>
+
+    <!-- Dịch chuyển cột -->
+    <!--
+        col-xs-offset-n: dịch phải n cột
+        col-sm-offset-n : dịch phải n cột
+        col-md-offset-n : dịch phải n cột
+        col-lg-offset-n : dịch phải n cột -->
+</body>
+</html>

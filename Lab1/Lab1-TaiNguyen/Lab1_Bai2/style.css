@@ -1,0 +1,54 @@
+body {
+    margin-top: 20px;
+}
+
+.row {
+    text-align: center;
+    border: 1px solid #000;
+}
+
+header {
+    position: relative;
+    padding: 30px 0;
+    background: blue;
+}
+
+.shopping-mall {
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+}
+
+.shopping-mall h1 {
+    font-family: Impact;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0px;
+}
+
+.shopping-mall h5 {
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+
+nav {
+    background: yellow;
+}
+
+article {
+    padding: 30px 0;
+    border: 1px solid #ccc;
+}
+
+article:nth-child(2) {
+    background: aqua;
+}
+
+footer {
+    padding: 10px 0;
+    background: #ccc;
+}
